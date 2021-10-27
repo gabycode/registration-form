@@ -1,0 +1,173 @@
+<html lang="eng">
+  <head>
+    <meta charset="utf-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  
+  <body>
+    <form action="/action_page.php" target="_blank">
+    
+      <h1>Registration Form</h1>
+
+      <hr>
+      <div>
+      <h2>Provide your information</h2>
+
+      <label for="name">Name*</label>
+      <br>
+      <input 
+        type="text"
+        id="name" 
+        name="name" 
+        placeholder="Name"
+        maxlength="30"
+        required
+      >
+
+      <br><br>
+
+      <label for="email">Email*</label><br>
+      <input 
+        type="email" 
+        id="email" 
+        name="email" 
+        placeholder="Email"
+        maxlength="50"
+        required
+      >
+
+      <br><br>
+
+      <label for="telephone">Telephone</label>
+      <br>
+      <input 
+        type="tel" 
+        size="1" 
+        maxlength="3" 
+        placeholder="555"
+      >-
+
+      <input 
+        type="tel" 
+        size="1" 
+        maxlength="3" 
+        placeholder="555"
+      >-
+
+      <input 
+        type="tel" 
+        size="2" 
+        maxlength="3"
+        placeholder="5555"
+      >
+
+      <br><br>
+
+      <label for="dob">DOB*</label>
+      <br>
+      <input 
+        type="date" 
+        id="dob" 
+        name="dob" 
+        required
+      >
+
+      <br><br>
+
+      <label for="gender">Gender</label>
+      <br>
+      <input 
+        type="radio"
+        id="male"
+        name="gender"
+      > 
+      <label for="male">Male</label>
+
+      <input 
+        type="radio"
+        id="female"
+        name="gender"
+      >
+      <label for="female">Female</label>
+
+      <input 
+        type="radio"
+        id="other"
+        name="gender"
+      >
+      <label for="other">Other</label>
+
+      <br><br>
+
+      <label for="householdSize">Household Size</label><br>
+      <input 
+        type="text" 
+        id="householdSize" 
+        name="householdSize" 
+        size="10"
+        maxlength="20"
+      >
+
+      <br>
+
+      <label for="annualIncome">Annual Income</label>
+      <br>
+      <select name="annualIncome" id="annualIncome">
+        <option value="--">--</option>
+        <option value="less-than-40k">less than 40k</option>
+        <option value="40k-60k">40k-60k</option>
+        <option value="more-than-60k">more than 60k</option>
+       </select> 
+
+      <br><br>
+
+      <label for="message">Message</label><br>
+      <textarea 
+        rows="5" 
+        cols="40" 
+        placeholder="add message here..."
+        maxlength="300"
+      ></textarea>
+
+      <br><br>
+
+      <label for="password">Password*</label>
+      <br>
+      <input 
+        type="password" 
+        id="password" 
+        name="password"
+        required
+        maxlength="20"
+        placeholder="password"
+      >
+
+      <br>
+
+      <label for="confirmPassword">Confirm Password*</label>
+      <br>
+      <input 
+        type="confirmPassword" 
+        id="confirmPassword" 
+        name="confirmPassword"
+        required
+        maxlength="20"
+        placeholder="confirm password"
+      >
+
+      <br><br>
+
+      <input 
+        type="checkbox"
+        required
+      >By signing up, you to the <a href="https://en.wikipedia.org/wiki/Terms_of_service#:~:text=Terms%20of%20service%20(also%20known,to%20use%20the%20offered%20service.">Terms of Service</a>.
+
+      <br><br>
+
+      <input type="submit">
+      </div>
+    </form>
+  </body>
+  
+</html>

@@ -1,0 +1,22 @@
+body {
+    font-family: 'Puritan', sans-serif;
+    margin:150px;
+    margin-top: 50px;
+    background-color:#C1B8C8;
+  }
+  
+  h1 {
+    padding:30px;
+    border-radius:10px;
+    border-top:10px solid #413C58;
+    background-color: white;
+  }
+  
+  div {
+    background-color:white;
+    border-bottom:10px solid #413C58;
+    margin-top:20px;
+    padding:30px;
+    padding-top:10px;
+    border-radius:10px;
+  }
